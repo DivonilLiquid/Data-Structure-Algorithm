@@ -1,2 +1,2 @@
 # Data-Structure-Algorithm
-Famous Questions of data strucutre
+Famous Questions of Data Strucutre on LeetCode
