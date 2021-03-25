@@ -34,7 +34,7 @@ class graph{
             int x = i.first;
             int y = i.second;
             bool sAns = unionSet(x,y,parent);
-            //cout<<"sAns is "<<sAns<<" with x: "<<x<<" y: "<<y<<endl;
+            cout<<"sAns is "<<sAns<<" with x: "<<x<<" y: "<<y<<endl;
             if(sAns){
                 return true;
             }
@@ -43,10 +43,13 @@ class graph{
     }
 };
 int main() {
+    clock_t time_req; 
+	time_req = clock();
     graph g(4);
     g.addEdge(0,1);
     g.addEdge(1,2);
     g.addEdge(2,3);
     g.addEdge(3,0);
-    cout<<g.isCycle(); 
+    cout<<g.isCycle()<<endl; 
+    cout<<(float)time_req/CLOCKS_PER_SEC << " seconds" << endl;
 }
