@@ -31,3 +31,38 @@ multimap Multiple-key map (class template )
 Unordered associative containers:
 unordered_set Unordered Set (class template )
 unordered_multiset Unordered Multiset (class template )
+
+
+
+My C++ Programming Template that i use:
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_map>
+#include <map>
+#include <utility>
+#include <set>
+#include <unordered_set>
+using namespace std;
+
+ 
+#define ll long long int
+#define ld long double
+#define F first
+#define S second
+#define P pair<int,int>
+#define pb push_back
+#define vi vector<int>
+
+
+int main()
+{
+#ifndef ONLINE_JUDGE
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+#endif
+	string p; /*To check if it's working on your system or not*/
+	cin>>p;
+	cout<<p<<endl;
+	return 0;
+}
